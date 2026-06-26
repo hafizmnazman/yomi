@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "overlay",
+  "description": "Capability for the region-select overlay window. It only closes itself and emits the scan result; capture_region is an app command and needs no ACL entry.",
+  "windows": ["overlay"],
+  "permissions": ["core:window:allow-close", "core:event:allow-emit"]
+}
