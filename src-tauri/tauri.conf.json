@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "yomi",
+  "productName": "Yomi",
   "version": "0.1.0",
   "identifier": "com.yomi.app",
   "build": {
@@ -10,11 +10,16 @@
     "frontendDist": "../dist"
   },
   "app": {
+    "macOSPrivateApi": true,
     "windows": [
       {
-        "title": "yomi",
-        "width": 800,
-        "height": 600
+        "label": "main",
+        "title": "Yomi",
+        "width": 980,
+        "height": 640,
+        "minWidth": 720,
+        "minHeight": 480,
+        "dragDropEnabled": true
       }
     ],
     "security": {
