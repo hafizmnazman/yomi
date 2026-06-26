@@ -1,0 +1,51 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yomi app icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123E42"/>
+      <stop offset="1" stop-color="#0A2528"/>
+    </linearGradient>
+    <linearGradient id="jade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6FEFCB"/>
+      <stop offset="1" stop-color="#2ED3A6"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB454" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFB454" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFB454" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- tile -->
+  <rect x="0" y="0" width="512" height="512" rx="120" fill="url(#bg)"/>
+
+  <!-- faint module texture -->
+  <g fill="#35E0B0" opacity="0.12">
+    <rect x="150" y="150" width="18" height="18" rx="5"/>
+    <rect x="344" y="150" width="18" height="18" rx="5"/>
+    <rect x="150" y="344" width="18" height="18" rx="5"/>
+    <rect x="344" y="344" width="18" height="18" rx="5"/>
+  </g>
+
+  <!-- selection brackets (the snip frame) -->
+  <g fill="none" stroke="url(#jade)" stroke-width="16" stroke-linecap="round" opacity="0.92">
+    <path d="M112 160 L112 112 L160 112"/>
+    <path d="M352 112 L400 112 L400 160"/>
+    <path d="M112 352 L112 400 L160 400"/>
+    <path d="M352 400 L400 400 L400 352"/>
+  </g>
+
+  <!-- QR finder-pattern eye -->
+  <g>
+    <rect x="186" y="186" width="140" height="140" rx="34" fill="none" stroke="url(#jade)" stroke-width="26"/>
+    <rect x="232" y="232" width="48" height="48" rx="14" fill="#FFB454"/>
+  </g>
+
+  <!-- reading line -->
+  <g filter="url(#glow)">
+    <rect x="120" y="252" width="272" height="7" rx="3.5" fill="url(#scan)"/>
+  </g>
+</svg>
