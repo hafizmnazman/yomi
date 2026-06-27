@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
+  "description": "A desktop QR reader: open an image or snip your screen, read the code.",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

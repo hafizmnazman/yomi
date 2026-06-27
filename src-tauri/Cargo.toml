@@ -2,6 +2,7 @@
 name = "yomi"
 version = "0.1.0"
 description = "A desktop QR reader: open an image or snip your screen, read the code."
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
