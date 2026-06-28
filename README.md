@@ -1,7 +1,11 @@
 <div align="center">
-  <img src="yomi-icon.svg" width="96" height="96" alt="Yomi icon" />
+  <img src="yomi-icon.svg" width="76" height="76" alt="Yomi icon" />
   <h1>Yomi</h1>
   <p>A desktop QR reader for laptops. Point it at an image or snip a region of your screen, and it pulls the link out and hands it to you, ready to copy or open. Every scan lands in a searchable history.</p>
+  <p>
+    <a href="https://github.com/hafizmnazman"><img src="https://img.shields.io/github/followers/hafizmnazman?label=Follow%20%40hafizmnazman&style=social" alt="Follow @hafizmnazman on GitHub" /></a>
+  </p>
+  <img src=".github/screenshot.png" width="840" alt="Yomi reading a QR code: the scan zone with Open image, Snip region, From clipboard and Scan folder, beside a searchable history rail" />
 </div>
 
 > The name is from Japanese 読み (*yomi*, "reading"), as in 読み取り (*yomitori*), the word for QR scanning.
@@ -66,3 +70,5 @@ See [implementation.md](implementation.md) for the design, the phased roadmap, a
 ## License
 
 [MIT](LICENSE) © Hafiz Azman
+
+Built by [@hafizmnazman](https://github.com/hafizmnazman). Follow along on GitHub for more.
