@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 162" width="850" height="162" role="img" aria-label="YOMI">
+<defs><linearGradient id="ramp" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="138"><stop offset="0" stop-color="#16a37f"/><stop offset="0.55" stop-color="#0b7a5e"/><stop offset="1" stop-color="#0a4f45"/></linearGradient>
+</defs>
+<style>text { font-family: ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace; font-size: 18px; fill: url(#ramp); white-space: pre; }</style>
+<g>
+<text x="236" y="42.0" textLength="378" lengthAdjust="spacing" xml:space="preserve">██╗   ██╗  ██████╗  ███╗   ███╗ ██╗</text>
+<text x="236" y="61.1" textLength="378" lengthAdjust="spacing" xml:space="preserve">╚██╗ ██╔╝ ██╔═══██╗ ████╗ ████║ ██║</text>
+<text x="236" y="80.2" textLength="378" lengthAdjust="spacing" xml:space="preserve"> ╚████╔╝  ██║   ██║ ██╔████╔██║ ██║</text>
+<text x="236" y="99.4" textLength="378" lengthAdjust="spacing" xml:space="preserve">  ╚██╔╝   ██║   ██║ ██║╚██╔╝██║ ██║</text>
+<text x="236" y="118.5" textLength="378" lengthAdjust="spacing" xml:space="preserve">   ██║    ╚██████╔╝ ██║ ╚═╝ ██║ ██║</text>
+<text x="236" y="137.6" textLength="378" lengthAdjust="spacing" xml:space="preserve">   ╚═╝     ╚═════╝  ╚═╝     ╚═╝ ╚═╝</text>
+</g>
+</svg>
